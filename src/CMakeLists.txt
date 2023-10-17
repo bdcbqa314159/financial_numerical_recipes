@@ -1,0 +1,6 @@
+add_subdirectory(random)
+add_subdirectory(linear_algebra)
+add_subdirectory(equity)
+add_subdirectory(fx)
+add_subdirectory(ir)
+add_subdirectory(credit)
