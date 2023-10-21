@@ -111,7 +111,7 @@ date date::operator--(int)
     return d;
 }
 
-date date::operator++()
+date date::operator--()
 {
     *this = previous_date(*this);
     return *this;

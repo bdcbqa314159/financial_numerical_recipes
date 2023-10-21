@@ -7,9 +7,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(LIBRARY_DATES my_lib_dates)
+set(LIBRARY_TIME_VALUE my_lib_time_value)
 
 
 set(EXECUTABLE_DATES executable_dates)
+set(EXECUTABLE_TIME_VALUE executable_time_value)
 
 add_subdirectory(src)
 add_subdirectory(app)
